@@ -25,7 +25,7 @@
         <p class="line">ENTER YOUR BIRTH CENTURY</p>
         <form class="form">
           <label for="century">century</label>
-          <input type="number" name="century" value="" placeholder="enter your century">
+          <input type="number" name="century" id="century" placeholder="enter your century"required min="0" max="21">
 
         </form>
       </div>
@@ -34,7 +34,7 @@
 
         <form class="form">
           <label for="year">year</label>
-          <input type="number" name="year" value="" placeholder="enter your birth year">
+          <input type="number" name="year" id="year" placeholder="enter your birth year">
 
         </form>
       </div>
@@ -42,7 +42,7 @@
         <p class="line">ENTER YOUR BIRTH MONTH</p>
         <form class="form">
           <label for="month">month</label>
-          <input type="number" name="month" value="" placeholder="enter your birth month">
+          <input type="number" name="month" id="month" placeholder="enter your birth month">
 
         </form>
       </div>
@@ -50,7 +50,7 @@
         <p class="line">ENTER YOUR DATE OF BIRTH </p>
         <form class="form">
           <label for="day">day</label>
-          <input type="number" name="day" value="" placeholder="enter your day of birth ">
+          <input type="number" name="day" id="day" placeholder="enter your day of birth " required min="0" max="31">
 
         </form>
       </div>
@@ -58,9 +58,10 @@
         <p class="line">ENTER YOUR GENDER</p>
         <form class="form">
           <label for="gender">gender</label>
-          <input type="radio" name="gender" value="male">Male
-          <input type="radio" name="gender" value="female">Female<br>
-          <input type="submit" name="submit" value="submit">
+          <input type="radio" name="gender" id="male">Male
+          <input type="radio" name="gender" id="female">Female<br>
+          <input type="submit" name="submit" id="submit">
+          <input type="reset" name="reset" value="reset">
         </form>
       </div>
 
