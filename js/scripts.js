@@ -3,27 +3,38 @@ function dayCalculator() {
 
 
 
-  var c-number =document.getElementById('century');
-  var y-number =document.getElementById('year');
-  var m-number =document.getElementById('month');
-  var d-number =document.getElementById('day');
+  var CC =document.getElementById('century');
+  var YY =document.getElementById('year');
+  var MM=document.getElementById('month');
+  var DD =document.getElementById('day');
 
-  var errMsg ="";
-  if (century< 0 )
-  {
-    errMsg=errMsg + "invalid"
+    var errMsg ="";
+    if (CC.value< 0 )
+    {
+      errMsg=errMsg + "invalid";
+      alert("invalid");
+    }
+    if (YY.value< 0)
+    {
+      errMsg=errMsg + "invalid";
+      alert("invalid");
+    }
+    if (MM.value< 0)
+    {
+      errMsg=errMsg + "invalid";
+      alert("invalid");
+    }
+    if (DD.value< 0)
+    {
+      errMsg=errMsg + "invalid";
+      alert("invalid");
+    }
+    else {
+
+   var akan =( ( (CC.value/4) -2*CC.value-1) + ((5*YY.value/4) ) + ((26*(MM.value+1)/10)) + DD.value ) % 7;
+  alert(akan);
+
   }
-  if (year< 0)
-  {
-    errMsg=errMsg + "invalid"
-  }
-  if (month< 0)
-  {
-    errMsg=errMsg + "invalid"
-  }
-  if (day< 0)
-  {
-    errMsg=errMsg + "invalid"
-  }
-  else 
+
 }
+dayOfTheWeek =("Monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday");

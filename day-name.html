@@ -25,7 +25,7 @@
         <p class="line">ENTER YOUR BIRTH CENTURY</p>
         <form class="form">
           <label for="century">century</label>
-          <input type="number" name="century" id="century" placeholder="enter your century"required min="0" max="21">
+          <input type="number" name="century" id="century" placeholder="enter your century"required min="0" max="21" onblur="centuary()">
 
         </form>
       </div>
@@ -50,7 +50,7 @@
         <p class="line">ENTER YOUR DATE OF BIRTH </p>
         <form class="form">
           <label for="day">day</label>
-          <input type="number" name="day" id="day" placeholder="enter your day of birth " required min="0" max="31">
+          <input type="number" name="day" id="day" placeholder="enter your day of birth " required min="1" max="31">
 
         </form>
       </div>
@@ -60,16 +60,21 @@
           <label for="gender">gender</label>
           <input type="radio" name="gender" id="male">Male
           <input type="radio" name="gender" id="female">Female<br>
-          <input type="submit" name="submit" id="submit" onclick="dayCalculator">
+          <input type="submit" name="submit" id="submit" onclick="dayCalculator()">
           <input type="reset" name="reset" value="reset">
         </form>
       </div>
+
 
 
      </div>
     </div>
    </div>
    <script src="js/scripts.js">
+
+   </script>
+   <script src=js/newjs.js>
+
    </script>
 
 
