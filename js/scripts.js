@@ -37,4 +37,6 @@ function dayCalculator() {
   }
 
 }
-dayOfTheWeek =("Monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday");
+ var dayOfTheWeek =("Monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday");
+ var femaleName =("Akosua", "Adwoa","Abenaa", "Akua",  "Yaa", "Afua", "Ama");
+ var maleName =( "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame");
