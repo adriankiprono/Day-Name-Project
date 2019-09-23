@@ -12,7 +12,7 @@ This is an application that determines the day of the week you were born.
 ##  Known Bugs
 {there are no bugs in the webpage }
 ## Technologies Used
-{the webpage was using HTML, CSS, JAVASCRIPT}
+{the webpage was using HTML, CSS, JAVASCRIPT,vs code and atom}
 ## Support and contact details
 {any problem  please contact 0792765106 email tuimuradrian6@gmail.com}
 ### License
