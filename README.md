@@ -2,6 +2,8 @@
 
 This is an application that determines the day of the week you were born.
 #### By **{Adrian Kiprono}*
+## BDD
+The application uses a lot factors. Namely the century,year, month and day of your birth.Also your gender. The year and century are combined to ease on calculating the end product.When you input it first validates whether the values are within the parameters, then checks if the user chose female or male then assign the specified name to the calculated value.
 ## Description
 { This is an application which determines the  day of the week of your birth.
   It is based on the Ghanaian culture belief in which there is a kind of
