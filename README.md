@@ -1,6 +1,6 @@
 # Day-Name-Project
 
-This is an application that determines the day of the week you were born.
+This is an application that determines the day of the week you were born
 #### By **{Adrian Kiprono}*
 ## BDD
 The application uses a lot factors. Namely the century,year, month and day of your birth.Also your gender.
